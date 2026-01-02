@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Gradient base -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="16dp"/>
+            <gradient
+                android:startColor="#263238"
+                android:endColor="#607D8B"
+                android:angle="135"/>
+        </shape>
+    </item>
+
+    <!-- Abstract blobs -->
+    <item android:top="40dp" android:left="30dp">
+        <shape android:shape="oval">
+            <size android:width="120dp" android:height="120dp"/>
+            <solid android:color="#EC407A"/>
+        </shape>
+    </item>
+
+    <item android:bottom="30dp" android:right="40dp">
+        <shape android:shape="oval">
+            <size android:width="100dp" android:height="100dp"/>
+            <solid android:color="#26C6DA"/>
+        </shape>
+    </item>
+
+</layer-list>
